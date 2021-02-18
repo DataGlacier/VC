@@ -8,5 +8,3 @@ def test_load_json():
   response = load_json()
   assert isinstance(response, dict)
   assert response.get("Data Glacier") =="Cricket"
-# Name and fav sport added to the program and witouth errors
-# Kevin, Basket
