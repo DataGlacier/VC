@@ -28,6 +28,8 @@ def call_sport():
     if (name):
         response[name] = sport
         write_json(response)
+    else:
+        print(name)
 
 
 if __name__ == "__main__":
