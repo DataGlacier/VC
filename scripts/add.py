@@ -21,8 +21,8 @@ def write_json(data,filename = '../response.json'):
 
 
 def call_sport():
-    name = input("Please add your name: ")
-    sport = input("Please add your favourite sports name: ")
+    name = input("Ozan Dokuyucu")
+    sport = input("Tennis")
     if (sport == ""):
         sport = 'Cricket'
     if (name):
@@ -34,3 +34,13 @@ if __name__ == "__main__":
     call_sport()
 
 call_sport()
+
+import sys,os
+sys.path.insert(0,os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
+from scripts.add import load_json
+
+
+def test_load_json():
+  response = load_json()
+  assert isinstance(response, dict)
+  assert response.get("Data Glacier") =="Cricket"
