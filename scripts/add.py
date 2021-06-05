@@ -26,7 +26,7 @@ def call_sport():
     if (sport == ""):
         sport = 'Cricket'
     if (name):
-        response[name] = sportfavorite
+        response[name] = sport
         write_json(response)
 
 
