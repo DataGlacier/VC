@@ -1,5 +1,6 @@
 {
 "DG": "Test",
 "Data Glacier": "Cricket",
-"Marko Talledo": "Soccer"
+"Marko Talledo": "Soccer",
+"& \"C:/Users/Marko Talledo/AppData/Local/Programs/Python/Python39/python.exe\"": "pytest test/test.py -s"
 }
