@@ -21,7 +21,7 @@ def write_json(data,filename = '../response.json'):
 
 
 def call_sport():
-    name = input("Please add your name: Igor A.status Queirozfedgdfgdfgsdf")
+    name = input("Please add your name: Igor A. Queiroz")
     sport = input("Please add your favourite sports name: Football")
     if (sport == ""):
         sport = 'Cricket'
