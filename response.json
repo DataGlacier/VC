@@ -1,5 +1,6 @@
 {
 "DG": "Test",
 "Data Glacier": "Cricket",
-"munira": "runing"
+"munira": "runing",
+"pytest test/test.py -s": "pytest test/test.py -s"
 }
