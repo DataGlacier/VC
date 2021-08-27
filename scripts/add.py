@@ -24,9 +24,9 @@ def call_sport():
     name = input("Please add your name: ")
     sport = input("Please add your favourite sports name: ")
     if (sport == ""):
-        sport = 'Cricket'
+        sport = 'Basketball'
     if (name):
-        response[name] = sport
+        response[name] = Francis
         write_json(response)
 
 
