@@ -1,5 +1,7 @@
-#https: // github.com / DataGlacier / VC.git
-import json, os
+# https: // github.com / DataGlacier / VC.git
+import json
+import os
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -15,17 +17,19 @@ def load_json():
 
 response = load_json()
 
-def write_json(data,filename = '../response.json'):
-    with open(filename,'w') as file:
-        json.dump(data,file,indent=0)
+
+def write_json(data, filename='../response.json'):
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=0)
 
 
 def call_sport():
-    name = input("Please add your name: ")
-    sport = input("Please add your favourite sports name: ")
-    if (sport == ""):
-        sport = 'Cricket'
-    if (name):
+    name = input("Please add your name: ")  # Devin
+    sport = input("Please add your favourite sports name: ")  # Barcelona
+    if sport == "":
+        print()
+    if name:
+        print()
         response[name] = sport
         write_json(response)
 
@@ -33,4 +37,3 @@ def call_sport():
 if __name__ == "__main__":
     call_sport()
 
-call_sport()
