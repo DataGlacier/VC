@@ -1,10 +1,12 @@
-#https: // github.com / DataGlacier / VC.git
-import json, os
+# https: // github.com / DataGlacier / VC.git
+import json
+import os
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 # User can add name and favourite sport in response.json
-# default sport Cricket will be added incase user does not provide fav sport
+# default sport Cricket will be added in case user does not provide fav sport
 
 
 def load_json():
@@ -15,17 +17,18 @@ def load_json():
 
 response = load_json()
 
-def write_json(data,filename = '../response.json'):
-    with open(filename,'w') as file:
-        json.dump(data,file,indent=0)
+
+def write_json(data, filename='../response.json'):
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=0)
 
 
 def call_sport():
     name = input("Please add your name: ")
     sport = input("Please add your favourite sports name: ")
-    if (sport == ""):
+    if sport == "":
         sport = 'Cricket'
-    if (name):
+    if name:
         response[name] = sport
         write_json(response)
 
