@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Wages</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+		<input type="text" name="Yrs_Ed" placeholder="Years of Education" required="required" />
+        <input type="text" name="Sthrn_Rgn" placeholder="Southern Region (1) or Not (0)" required="required" />
+		<input type="text" name="Sex" placeholder="Gender" required="required" />
+		<input type="text" name="Yrs_Exprnc" placeholder="Years of Experience" required="required" />
+		<input type="text" name="Union" placeholder="Having Union (1) or Not (0)" required="required" />
+		<input type="text" name="Age" placeholder="Age" required="required" />
+		<input type="text" name="Marr" placeholder="Married (1) or Not (0)" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+ <img src="/static/images/Original.svg" style="width: 400px;position: absolute;bottom: 10px;left: 10px;" alt="Company Logo"/>
+
+</body>
+</html>
