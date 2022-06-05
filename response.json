@@ -1,4 +1,7 @@
 {
 "DG": "Test",
-"Data Glacier": "Cricket"
+"Data Glacier": "Cricket",
+"\"Joe Doe\"": "\"Rowing\"",
+"\"Manpreet\"": "\"Tenis\"",
+"\u001b[A\u001b[B\"Fiona\"": "\"Chess\""
 }
