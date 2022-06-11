@@ -1,0 +1,15 @@
+file_type: csv
+dataset_name: survival_file
+file_name: survival_data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+columns: 
+    - client_ID
+    - age_start_observed
+    - age_end
+    - is_truncated
+    - is_censored
+    - is_dead
+    - date_start_observed
+    - date_end_observed
