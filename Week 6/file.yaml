@@ -1,0 +1,16 @@
+file_type: csv
+dataset_name: testfile
+file_name: test_data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Client_ID
+    - age_start_observed
+    - age_end
+    - is_truncated
+    - is_censored
+    - is_dead
+    - date_start_observed
+    - date_end_observed
