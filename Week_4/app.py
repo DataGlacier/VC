@@ -13,6 +13,3 @@ def sales():
     Person = request.form.get('who')
     Day = request.form.get('day')
     return render_template('index.html', sales_week = "{}'s Sales for {} are: {}".format(Person, Day, model.loc[Person, Day]))
-
-
-app.run(port=5000)
