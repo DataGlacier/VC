@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Who's Sales Day Would You Like To See?</h1>
+  <h2>(Steven, Mike, Andi, Paul) on (Mon, Tue, Wed, Thu, Fri, Total)</h2>
+  <br>
+  <br>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('sales')}}"method="post">
+		<input type="text" name="who" placeholder="Person" required="required" />
+        <input type="text" name="day" placeholder="Day" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Sales</button>
+    </form>
+
+   <br>
+   <br>
+     {{sales_week}}
+ </div>
+</body>
+</html>
