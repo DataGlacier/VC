@@ -8,3 +8,4 @@ def test_load_json():
   response = load_json()
   assert isinstance(response, dict)
   assert response.get("Data Glacier") =="Cricket"
+  pytest test/test.py -s
