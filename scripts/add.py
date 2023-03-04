@@ -24,13 +24,13 @@ def call_sport():
     name = input("Please add your name: ")
     sport = input("Please add your favourite sports name: ")
     if (sport == ""):
-        sport = 'Cricket'
+        sport = 'Ultimate Frisbee'
     if (name):
-        response[name] = sport
+        response[name] = 'Matthew'
         write_json(response)
 
 
 if __name__ == "__main__":
     call_sport()
 
-call_sport()
+#call_sport()
