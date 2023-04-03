@@ -1,6 +1,9 @@
 #https: // github.com / DataGlacier / VC.git
 import json, os
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+from flask import Response
+from flask import Flask
+app = Flask(__name__)
+os.chdir(os.path.dirname(os.path.abspath(__name__)))
 
 
 # User can add name and favourite sport in response.json
@@ -8,21 +11,22 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 def load_json():
-    with open('../response.json') as json_obj:
+    with open('/Users/flashrunner/VC/response.json') as json_obj:
         response = json.load(json_obj)
     return response
 
 
 response = load_json()
 
-def write_json(data,filename = '../response.json'):
+
+def write_json(data,filename = '/Users/flashrunner/VC/response.json'):
     with open(filename,'w') as file:
         json.dump(data,file,indent=0)
 
 
 def call_sport():
-    name = input("Please add your name: ")
-    sport = input("Please add your favourite sports name: ")
+    name = input("Please add your name:yuyang ")
+    sport = input("Please add your favourite sports name:tennis ")
     if (sport == ""):
         sport = 'Cricket'
     if (name):
@@ -34,3 +38,5 @@ if __name__ == "__main__":
     call_sport()
 
 call_sport()
+
+
