@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ML API</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -10,36 +10,99 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('/w3images/forestbridge.jpg');
+  background-image: url('https://www.w3schools.com/css/img_forest.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
+
 </style>
 </head>
 <body>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    <img src="Original.webp" style="width: 400px;position: absolute;bottom: 10px;left: 10px;" alt="Company Logo"/>
+  <div class="w3-display-topleft w3-padding-large">
+	<img src="Original.webp" alt="Logo" style="width:150px;height:100px;">
   </div>
+
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Predict Shipping Price</h1>
-    <form action="{{ url_for('predict')}}"method="post">
-		<input type="text" name="Price Of Sculpture" placeholder="Price" required="required" />
-        <input type="text" name="State" placeholder="State" required="required" />
-		<input type="text" name="Artist Reputation" placeholder="Artist Reputation" required="required" />
-		<input type="text" name="Base Shipping Price" placeholder="Base Shipping Price" required="required" />
-		<input type="text" name="Weight" placeholder="Weight" required="required" />		
+    <h1 class="w3-jumbo w3-animate-top">Shipping Price Prediction</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+        <form action="{{ url_for('predict')}}"method="post">
+		<label for="Customer Id">Customer Id:</label>
+		<input type="text" name="Customer Id" placeholder="ID" required="required" /><br>
+
+		<label for="Artist Name">Artist Name:</label>
+		<input type="text" name="Artist Name" placeholder="Name" required="required" /><br>
+
+		<label for="Artist Reputation">Artist Reputation:</label>
+		<input type="number" name="Artist Reputation" step="0.01" required="required" /><br>
+
+		<label for="Height">Height:</label>
+		<input type="number" name="Height" required="required" /><br>
+
+		<label for="Width">Width:</label>
+		<input type="number" name="Width" required="required" /><br>
+
+		<label for="Weight">Weight:</label>
+		<input type="number" name="Weight" required="required" /><br>
+
+		<label for="Material">Material:</label>
+		<input type="text" name="Material" placeholder="Material" required="required" /><br>
+
+		<label for="Price Of Sculpture">Price Of Sculpture:</label>
+		<input type="number" name="Price Of Sculpture" step="0.01" required="required" /><br>
+
+		<label for="Base Shipping Price">Base Shipping Price:</label>
+		<input type="number" name="Base Shipping Price" step="0.01" required="required" /><br>
+
+		<label for="International">International:</label>
+		<input type="radio" name="International" value="Yes" required="required" /> Yes
+		<input type="radio" name="International" value="No" required="required" /> No<br>
+
+		<label for="Express Shipment">Express Shipment:</label>
+		<input type="radio" name="Express Shipment" value="Yes" required="required" /> Yes
+		<input type="radio" name="Express Shipment" value="No" required="required" /> No<br>
+
+		<label for="Installation Included">Installation Included:</label>
+		<input type="radio" name="Installation Included" value="Yes" required="required" /> Yes
+		<input type="radio" name="Installation Included" value="No" required="required" /> No<br>
+
+		<label for="Transport">Transport:</label>
+		<input type="text" name="Transport" placeholder="Transport" required="required" /><br>
+
+		<label for="Fragile">Fragile:</label>
+		<input type="radio" name="Fragile" value="Yes" required="required" /> Yes
+		<input type="radio" name="Fragile" value="No" required="required" /> No<br>
+
+		<label for="Customer Info">Customer Information:</label>
+		<input type="text" name="Customer Info" placeholder="Info" required="required" /><br>
+
+		<label for="Remote Location">Remote Location:</label>
+		<input type="radio" name="Remote Location" value="Yes" required="required" /> Yes
+		<input type="radio" name="Remote Location" value="No" required="required" /> No<br>
+
+		<label for="Scheduled Date">Scheduled Date:</label>
+		<input type="date" name="Scheduled Date" required="required" /><br>
+
+		<label for="Delivery Date">Delivery Date:</label>
+		<input type="date" name="Delivery Date" required="required" /><br>
+		
+		<label for="Customer Location">Customer Location:</label>
+		<input type="text" name="Customer Location" required="required" /><br>
+		
+		<label for="State">State:</label>
+		<input type="text" name="State" required="required" /><br>
+		
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
    <br>
    <br>
    {{ prediction_text }}
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center"></p>
   </div>
-
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Mahyar Arani</a>
+  </div>
 </div>
 
 </body>
