@@ -1,37 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('https://www.w3schools.com/css/img_forest.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.w3-jumbo {
-    font-size: 48px;
-  }
-
-</style>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
 </head>
+
 <body>
+ <div class="login">
+	<h1>Predict Shipping Price</h1>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large">
-	<img src="Original.webp" alt="Logo" style="width:150px;height:100px;">
-  </div>
-
-  <div class="w3-display-middle">
-	<h1 class="w3-large w3-animate-top">Shipping Price Prediction</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-        <form action="{{ url_for('predict')}}"method="post">
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
 		<label for="Artist Reputation">Artist Reputation:</label>
 		<input type="number" name="Artist Reputation" step="0.01" required="required" /><br>
 
@@ -53,12 +38,13 @@ body, html {height: 100%}
 		
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
+
+   <br>
+   <br>
    {{ prediction_text }}
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Mahyar Arani</a>
-  </div>
-</div>
+
+ </div>
+ <img src="/static/images/Original.svg" style="width: 400px;position: absolute;bottom: 10px;left: 10px;" alt="Company Logo"/>
 
 </body>
 </html>
