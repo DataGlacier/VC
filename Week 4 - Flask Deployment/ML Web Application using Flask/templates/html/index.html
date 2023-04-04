@@ -15,6 +15,9 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
+.w3-jumbo {
+    font-size: 48px;
+  }
 
 </style>
 </head>
@@ -26,15 +29,9 @@ body, html {height: 100%}
   </div>
 
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Shipping Price Prediction</h1>
+	<h1 class="w3-large w3-animate-top">Shipping Price Prediction</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
         <form action="{{ url_for('predict')}}"method="post">
-		<label for="Customer Id">Customer Id:</label>
-		<input type="text" name="Customer Id" placeholder="ID" required="required" /><br>
-
-		<label for="Artist Name">Artist Name:</label>
-		<input type="text" name="Artist Name" placeholder="Name" required="required" /><br>
-
 		<label for="Artist Reputation">Artist Reputation:</label>
 		<input type="number" name="Artist Reputation" step="0.01" required="required" /><br>
 
@@ -47,57 +44,15 @@ body, html {height: 100%}
 		<label for="Weight">Weight:</label>
 		<input type="number" name="Weight" required="required" /><br>
 
-		<label for="Material">Material:</label>
-		<input type="text" name="Material" placeholder="Material" required="required" /><br>
-
 		<label for="Price Of Sculpture">Price Of Sculpture:</label>
 		<input type="number" name="Price Of Sculpture" step="0.01" required="required" /><br>
 
 		<label for="Base Shipping Price">Base Shipping Price:</label>
 		<input type="number" name="Base Shipping Price" step="0.01" required="required" /><br>
 
-		<label for="International">International:</label>
-		<input type="radio" name="International" value="Yes" required="required" /> Yes
-		<input type="radio" name="International" value="No" required="required" /> No<br>
-
-		<label for="Express Shipment">Express Shipment:</label>
-		<input type="radio" name="Express Shipment" value="Yes" required="required" /> Yes
-		<input type="radio" name="Express Shipment" value="No" required="required" /> No<br>
-
-		<label for="Installation Included">Installation Included:</label>
-		<input type="radio" name="Installation Included" value="Yes" required="required" /> Yes
-		<input type="radio" name="Installation Included" value="No" required="required" /> No<br>
-
-		<label for="Transport">Transport:</label>
-		<input type="text" name="Transport" placeholder="Transport" required="required" /><br>
-
-		<label for="Fragile">Fragile:</label>
-		<input type="radio" name="Fragile" value="Yes" required="required" /> Yes
-		<input type="radio" name="Fragile" value="No" required="required" /> No<br>
-
-		<label for="Customer Info">Customer Information:</label>
-		<input type="text" name="Customer Info" placeholder="Info" required="required" /><br>
-
-		<label for="Remote Location">Remote Location:</label>
-		<input type="radio" name="Remote Location" value="Yes" required="required" /> Yes
-		<input type="radio" name="Remote Location" value="No" required="required" /> No<br>
-
-		<label for="Scheduled Date">Scheduled Date:</label>
-		<input type="date" name="Scheduled Date" required="required" /><br>
-
-		<label for="Delivery Date">Delivery Date:</label>
-		<input type="date" name="Delivery Date" required="required" /><br>
-		
-		<label for="Customer Location">Customer Location:</label>
-		<input type="text" name="Customer Location" required="required" /><br>
-		
-		<label for="State">State:</label>
-		<input type="text" name="State" required="required" /><br>
 		
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
-   <br>
-   <br>
    {{ prediction_text }}
   </div>
   <div class="w3-display-bottomleft w3-padding-large">
