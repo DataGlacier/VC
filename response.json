@@ -1,6 +1,11 @@
 {
 "DG": "Test",
 "Data Glacier": "Cricket",
+<<<<<<< HEAD
 "Manda Li": "Skates",
 "Manda li": "Skate"
+=======
+"Manda Li": "Skate",
+"Manda": "Badminton"
+>>>>>>> manda
 }
