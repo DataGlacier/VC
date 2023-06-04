@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(58, 54, 114);
+    font-family: Arial, sans-serif;
+    color: darkgray;
+    text-align: center;
+  }
+  
+  h1 {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+  }
+  
+  .form-1 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ input[type="text"] {
+  margin-bottom: 10px;
+  width: 280px;
+  padding: 8px;
+  color: black;
+}
+select {
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 8px;
+  color: black;
+}
+select option[disabled] {
+  display: none;
+}
+  /* .predict-cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .predict-cost select {
+    width: 300px;
+  }
+  
+  .predict-cost select option[disabled] {
+    display: none;
+  } */
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .prediction {
+    text-align: center;
+  }
+  
+  .predict {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  

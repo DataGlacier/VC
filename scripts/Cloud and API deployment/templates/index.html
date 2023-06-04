@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+  
+</head>
+
+<body">
+  <img src="/static/images/Original.jpg" style="width:100px; position:absolute; margin-top:30px; left:10px;" alt="Company Logo"/>
+
+  <div class="login" style="width: 500px;">
+     <h1 style="text-align: left;">Predict Insurance Charges</h1>
+  
+     <!-- Main Input For Receiving Query to our ML -->
+     <form action="{{ url_for('predict')}}" method="post" class="'form-1">
+        <input type="text" name="age" value="{{ age }}"  placeholder="Age"  required="required" />
+        <select name="sex" value="{{sex}}" required="required" >
+            <option value="" selected disabled hidden>Select gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+         </select>
+         <input type="text" name="bmi" value="{{bmi}}" placeholder="Body Mass Index" required="required" />
+         <select name="children" required="required" >
+            <option value="" selected disabled hidden>Select number of children</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+         </select>
+         <select name="smoker" value="{{smoker}}" required="required" >
+            <option value="" selected disabled hidden>Select value</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select>
+         <select name="region" value="{{region}}" required="required" >
+            <option value="" selected disabled hidden>Select region</option>
+            <option value="southeast">Southeast</option>
+            <option value="southwest">Southwest</option>
+            <option value="northeast">Northeast</option>
+            <option value="northwest">Northwest</option>
+         </select>
+         <button type="submit" >Predict</button>
+      </div>
+   </form>
+   <br>
+   <br>
+   <div class="prediction" >
+     <p class="predict" >{{ prediction_text }}</p>
+   </div> 
+   </div>
+</body>
+
+
+</body>
+</html>
