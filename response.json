@@ -1,4 +1,7 @@
 {
 "DG": "Test",
-"Data Glacier": "Cricket"
+"Data Glacier": "Cricket",
+"aryan": "cricket/usr/bin/python3 \"/Users/aryansrivatsavadande/Documents/datascience1 intern/VC/scripts/add.py\"",
+"/usr/bin/python3 \"/Users/aryansrivatsavadande/Documents/datascience1 intern/VC/scripts/add.py\"": "/usr/bin/python3 \"/Users/aryansrivatsavadande/Documents/datascience1 intern/VC/scripts/add.py\"",
+"/usr/bin/python3 \"/Users/aryansrivatsavadande/Documents/datascience1 intern/VC/test/test.py\"": "/usr/bin/python3 \"/Users/aryansrivatsavadande/Documents/datascience1 intern/VC/test/test.py\""
 }
