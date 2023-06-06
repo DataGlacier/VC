@@ -1,0 +1,138 @@
+Script started on Tue Jun  6 00:40:04 2023
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h//script[?2004l
+zsh: no such file or directory: /script
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hppython add.py[?2004l
+python: can't open file '/Users/sukuratsalam/VC/add.py': [Errno 2] No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hccd v CV  C VC/scipts/  s[?2004l
+cd: no such file or directory: VC/scipts
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h[7m/Users/sukuratsalam/VC/[27m[23D[27m/[27mU[27ms[27me[27mr[27ms[27m/[27ms[27mu[27mk[27mu[27mr[27ma[27mt[27ms[27ma[27ml[27ma[27mm[27m/[27mV[27mC[27m/scipts[?2004l
+zsh: no such file or directory: /Users/sukuratsalam/VC/scipts
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hssci ripts[?2004l
+zsh: command not found: scripts
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hscripts/Users/sukuratsalam/VC/scipts     cripts[?2004l
+zsh: permission denied: /Users/sukuratsalam/VC/scripts
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hccd /Users/sukuratsalam/VC/scripts[?2004l
+zsh: permission denied: /Users/sukuratsalam/VC/scripts
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h~~ scripts[?2004l
+zsh: permission denied: /Users/sukuratsalam
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hppython 3 add.py[?2004l
+python3: can't open file '/Users/sukuratsalam/VC/add.py': [Errno 2] No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hccd VC[?2004l
+cd: no such file or directory: VC
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hccd scripts[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004hppython3 add.py[?2004l
+Please add your name: Sukurat Salam
+Please add your favourite sports name: Football
+Please add your name: Sukurat Salam
+Please add your favourite sports name: Football
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004h[7mpytest test/test.py -s[27m[22D[27mp[27my[27mt[27me[27ms[27mt[27m [27mt[27me[27ms[27mt[27m/[27mt[27me[27ms[27mt[27m.[27mp[27my[27m [27m-[27ms[?2004l
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.9.7, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: /Users/sukuratsalam/VC/scripts
+plugins: anyio-2.2.0
+[1mcollecting ... [0m[1mcollected 0 items                                                              [0m
+
+[33m============================ [33mno tests ran[0m[33m in 0.02s[0m[33m =============================[0m
+[31mERROR: file or directory not found: test/test.py
+[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004h[7mgit status[27m
+[K[A[51C[27mg[27mi[27mt[27m [27ms[27mt[27ma[27mt[27mu[27ms[1B[K[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   ../response.json[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004hccd vc  VC[?2004l
+cd: no such file or directory: VC
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004hcd VCgit status
+[K[K[A[51Cpyte[2C test/test.py -s[1B[K[A[73C[19Dhon3 add.py        [8D[14Dcd scripts    VC     [?2004l[1Bcd: no such file or directory: VC
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004hccd~[?2004l
+zsh: command not found: cd~
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC/scripts[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro scripts % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro ~ % [K[?2004hccd VC[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hggtg  ggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hgit add .[9Dcd VC    ~ ~  VCgit status
+[K[K[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   response.json[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h[7mgit commit -m "Commit message"[27m
+[K[A[46C[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27mm[27me[27ms[27ms[27ma[27mg[27me[27m"[1B[K[A[76C              Addind g a new _barant [K[A[79C[K[1B[K[A[79C     r branch [K  and entering my name                  [K[A[79C[K[1B[K[A[79Ch [K"[?2004l
+[main ca343f1] Adding a new_branch
+ 2 files changed, 66 insertions(+), 2 deletions(-)
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h[7mgit push origin <branch-name>[27m
+[K[A[46C[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27m<[27mb[27mr[27ma[27mn[27mc[27mh[27m-[27mn[27ma[27mm[27me[27m>[1B[K[A[75C             new_branch[?2004l[1BUsername for 'https://github.com': shuksbhoney
+Password for 'https://shuksbhoney@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/DataGlacier/VC.git/'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hgit push origin new_branch[22Dcommit -m "Adding a new_branch"[K[A[49Cstatus[K[1B[K[A[46C[1B[A[50Ccommit -m "Adding a new_branch"[A[49Cpush origin[8P[11C[K[1B[K[A[72C[?2004l[1BUsername for 'https://github.com': Sukuratsalam
+Password for 'https://Sukuratsalam@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/DataGlacier/VC.git/'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hgit push origin new_branch[?2004l
+AC48_ -6B2A
+remote: Permission to DataGlacier/VC.git denied to Sukuratsalam.
+fatal: unable to access 'https://github.com/DataGlacier/VC.git/': The requested URL returned error: 403
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hAAC48-6B2A[?2004l
+zsh: command not found: AC48-6B2A
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hAC48-6B2A[9Dgit push origin new_branch[?2004l
+fatal: User cancelled dialog.
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/DataGlacier/VC.git/'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h[7mgit push -u origin <branch-name>[27m
+[K[A[46C[27mg[27mi[27mt[27m [27mp[27mu[27ms[27mh[27m [27m-[27mu[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27m<[27mb[27mr[27ma[27mn[27mc[27mh[27m-[27mn[27ma[27mm[27me[27m>[1B[K[A[78C             'new_branch'[?2004l[1Binfo: please complete authentication in your browser...
+remote: Permission to DataGlacier/VC.git denied to Sukuratsalam.
+fatal: unable to access 'https://github.com/DataGlacier/VC.git/': The requested URL returned error: 403
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hggit branch[?2004l
+* [32mmain[m
+  new_branch[m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hgit branchpush -u origin 'new_branch'[?2004l
+info: please complete authentication in your browser...
+remote: Permission to DataGlacier/VC.git denied to Sukuratsalam.
+fatal: unable to access 'https://github.com/DataGlacier/VC.git/': The requested URL returned error: 403
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004hgit push -u origin 'new_branch'            new_bar  ranch[?2004l
+info: please complete authentication in your browser...
+remote: Permission to DataGlacier/VC.git denied to Sukuratsalam.
+fatal: unable to access 'https://github.com/DataGlacier/VC.git/': The requested URL returned error: 403
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h[7mgit remote set-url origin git@gith[7mu[7mb.com:DataGlacier/VC.git[27m[K
+[K[A[A[46C[27mg[27mi[27mt[27m [27mr[27me[27mm[27mo[27mt[27me[27m [27ms[27me[27mt[27m-[27mu[27mr[27ml[27m [27mo[27mr[27mi[27mg[27mi[27mn[27m [27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mhu[27mb[27m.[27mc[27mo[27mm[27m:[27mD[27ma[27mt[27ma[27mG[27ml[27ma[27mc[27mi[27me[27mr[27m/[27mV[27mC[27m.[27mg[27mi[27mt[1B[K[A[25C[?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h[7mpytest test/test.py -s[27m[22D[27mp[27my[27mt[27me[27ms[27mt[27m [27mt[27me[27ms[27mt[27m/[27mt[27me[27ms[27mt[27m.[27mp[27my[27m [27m-[27ms[?2004l
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.9.7, pytest-6.2.4, py-1.10.0, pluggy-0.13.1
+rootdir: /Users/sukuratsalam/VC
+plugins: anyio-2.2.0
+[1mcollecting ... [0mPlease add your name: Sukurat
+Please add your favourite sports name: Footba;;   all
+[1mcollecting 1 item                                                              [0m[1mcollected 1 item                                                               [0m
+
+test/test.py [32m.[0m
+
+[32m============================== [32m[1m1 passed[0m[32m in 25.27s[0m[32m ==============================[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://SUKURATs-MacBook-Pro.local/Users/sukuratsalam/VC[0m[27m[24m[J(base) sukuratsalam@SUKURATs-MacBook-Pro VC % [K[?2004h
