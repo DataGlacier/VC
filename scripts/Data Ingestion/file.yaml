@@ -1,0 +1,12 @@
+file_type : csv
+dataset_name: MyDrive
+file_name: dataset
+inbound_delimiter : ","
+outbound_delimiter : "|"
+skip_leading_rows : 1
+gz_file : 'data.csv.gz'
+gz_delimiter : '|'
+columns :
+    - en
+    - fr
+batch_size : 4000000
