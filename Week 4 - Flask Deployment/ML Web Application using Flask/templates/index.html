@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Shipping Price</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+		<label for="Artist Reputation">Artist Reputation:</label>
+		<input type="number" name="Artist Reputation" step="0.01" required="required" /><br>
+
+		<label for="Height">Height:</label>
+		<input type="number" name="Height" required="required" /><br>
+
+		<label for="Width">Width:</label>
+		<input type="number" name="Width" required="required" /><br>
+
+		<label for="Weight">Weight:</label>
+		<input type="number" name="Weight" required="required" /><br>
+
+		<label for="Price Of Sculpture">Price Of Sculpture:</label>
+		<input type="number" name="Price Of Sculpture" step="0.01" required="required" /><br>
+
+		<label for="Base Shipping Price">Base Shipping Price:</label>
+		<input type="number" name="Base Shipping Price" step="0.01" required="required" /><br>
+
+		
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+ <img src="/static/images/Original.svg" style="width: 400px;position: absolute;bottom: 10px;left: 10px;" alt="Company Logo"/>
+
+</body>
+</html>

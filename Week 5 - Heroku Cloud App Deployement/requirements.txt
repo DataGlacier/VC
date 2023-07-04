@@ -1,0 +1,9 @@
+Flask==2.2.3
+numpy>=1.19.3
+pandas>=1.1.5
+scikit_learn>=1.2.2
+gunicorn==20.1.0
+itsdangerous>=1.1.0
+Jinja2>=2.10.1
+MarkupSafe>=1.1.1
+Werkzeug>=0.15.5
