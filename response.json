@@ -1,4 +1,12 @@
 {
 "DG": "Test",
-"Data Glacier": "Cricket"
+"Data Glacier": "Cricket",
+<<<<<<< HEAD
+"user 1": "cricket",
+"user 2": "football"
+=======
+"pratheek": "cricket",
+"pratheek ": "football",
+"prartheek": "cricket"
+>>>>>>> 1d3d7ab8f477438344d2dce994c78aa0efabbb01
 }
