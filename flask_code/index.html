@@ -1,4 +1,21 @@
-<form class="" action="data" method="post">
-    <input type="file" name="upload-file" value="">
-    <input type="submit" name="" value="Submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Flask File Uploads</h1>
+
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+
+
+</body>
+</html>
+
