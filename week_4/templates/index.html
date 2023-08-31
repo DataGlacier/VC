@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week-4 Data Glacier - Flask</title>
+        <style>
+            body {
+                background-color:rgb(186, 235, 24);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="text-center">Image Classifier - Based on ResNet50 (pre-trained)</h1>
+        <h2 lass="text-center">Upload the image you want to classify and select predict</h2>
+        <form class ="p-3 text-center" action="/", method="post" enctype="multipart/form-data">
+            <input class=""form-control" type="file" name="imagefile">
+            <input class="btn btn-primary mt-3" type="submit" value="Pridict Image">
+        </form>
+        {% if prediction %}
+        <p class = "text-center"> Image is {{prediction}} </p>
+        {% endif %}
+    </body>
+
+</html>
