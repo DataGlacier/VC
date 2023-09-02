@@ -2,20 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Sample Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
 </head>
 <body>
-    <h1>Flask File Uploads</h1>
-
-    <form method="POST">
-        {{form.hidden_tag()}}
-        {{form.file()}}
-        {{form.submit()}}
-    </form>
-
-
+  <canvas id="lineChart" width="900" height="400"></canvas>
+  <script>
+    var ctx = document.getElementById("lineChart").getContext("2d");
+    var lineChart = new Chart(ctx, {
+        type: "line",
+        data: {
+            labels: {{ labels | safe}},
+            datasets: [
+                {
+                    labels: "Data points",
+                    data: {{ values1 | safe }},
+                    data: {{ values2 | safe }},
+                    fill: false,
+                    borderColor: "rgb(75, 192, 192)",
+                    lineTension: 0.1
+                }
+            ] 
+        },
+        options: {
+            responsive: false
+        } 
+    });
+  </script>
 </body>
 </html>
 
