@@ -13,23 +13,28 @@
     var lineChart = new Chart(ctx, {
         type: "line",
         data: {
-            labels: {{ labels | safe}},
+            labels: {{ labels | safe }},
             datasets: [
                 {
-                    labels: "Data points",
-                    data: {{ values1 | safe }},
-                    data: {{ values2 | safe }},
+                    label: "Data points", // Changed 'labels' to 'label'
+                    data: {{ values1 | safe }}, // Removed duplicate 'data' field
                     fill: false,
                     borderColor: "rgb(75, 192, 192)",
                     lineTension: 0.1
+                },
+                {
+                    label: "Data points 2", // Added a label for the second dataset
+                    data: {{ values2 | safe }},
+                    fill: false,
+                    borderColor: "rgb(192, 75, 75)", // Changed the border color for the second dataset
+                    lineTension: 0.1
                 }
-            ] 
+            ]
         },
         options: {
             responsive: false
-        } 
+        }
     });
   </script>
 </body>
 </html>
-
