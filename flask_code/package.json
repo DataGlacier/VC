@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "python, javascript, html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuzma12/VC.git"
+  },
+  "keywords": [
+    "Kuzma"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuzma12/VC/issues"
+  },
+  "homepage": "https://github.com/Kuzma12/VC#readme"
+}
