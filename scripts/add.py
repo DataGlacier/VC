@@ -34,5 +34,3 @@ if __name__ == "__main__":
     call_sport()
 
 call_sport()
-
-pytest test/test.py -s
