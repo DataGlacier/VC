@@ -1,5 +1,6 @@
-#https: // github.com / DataGlacier / VC.git
+# https: // github.com / DataGlacier / VC.git
 import json, os
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -15,9 +16,10 @@ def load_json():
 
 response = load_json()
 
-def write_json(data,filename = '../response.json'):
-    with open(filename,'w') as file:
-        json.dump(data,file,indent=0)
+
+def write_json(data, filename='../response.json'):
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=0)
 
 
 def call_sport():
