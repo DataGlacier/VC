@@ -1,0 +1,3 @@
+Link to data referenced:
+
+https://www.kaggle.com/datasets/ofurkancoban/discogs-releases-dataset
