@@ -7,4 +7,4 @@ from scripts.add import load_json
 def test_load_json():
   response = load_json()
   assert isinstance(response, dict)
-  assert response.get("Data Glacier") =="Cricket"
+  assert response.get("Istiyak") =="Cricket"
