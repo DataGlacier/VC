@@ -1,8 +1,30 @@
-
+import json
 import os
 
-name = input("Enter your name: ")
-sport = input("Enter your favorite sport: ")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-with open(os.path.join("input", f"{name}.txt"), "w") as f:
-    f.write(f"{name}, {sport}")
+# User can add name and favourite sport in response.json
+# default sport Cricket will be added in case user does not provide fav sport
+
+def load_json():
+    with open('../response.json') as json_obj:
+        response = json.load(json_obj)
+    return response
+
+response = load_json()
+
+def write_json(data, filename='../response.json'):
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=0)
+
+def call_sport():
+    name = input("Please add your name: ")
+    sport = input("Please add your favourite sports name: ")
+    if sport == "":
+        sport = 'Cricket'
+    if name:
+        response[name] = sport
+        write_json(response)
+
+if __name__ == "__main__":
+    call_sport()
