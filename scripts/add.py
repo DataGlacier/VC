@@ -19,18 +19,18 @@ def write_json(data,filename = '../response.json'):
     with open(filename,'w') as file:
         json.dump(data,file,indent=0)
 
-
 def call_sport():
     name = input("Please add your name: ")
     sport = input("Please add your favourite sports name: ")
-    if (sport == ""):
+    if sport == "":
         sport = 'Cricket'
-    if (name):
-        response[name] = sport
+    if name:
+        # overwrite response with expected format
+        response["name"] = name
+        response["sport"] = sport
         write_json(response)
 
 
 if __name__ == "__main__":
     call_sport()
 
-call_sport()
