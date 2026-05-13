@@ -1,1 +1,3 @@
-# VC
+This project analyzes over 100,000 transportation ride records across multiple cities to uncover operational trends, customer behavior patterns, and profitability insights between competing cab services. The goal of the project is to demonstrate how data analytics and visualization can support business decision-making in the mobility and transportation industry.
+
+Using Python-based data analysis workflows and interactive Tableau dashboards, this project explores seasonal demand fluctuations, ride volume patterns, customer demographics, and revenue performance to generate actionable business insights.
